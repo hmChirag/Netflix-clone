@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    position: relative;
+    background-image: url(assests/images/bg1.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1304px,100vw);
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    margin-top:15px ;
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 1;
+}
+nav button{
+    z-index: 1;
+    position: relative;
+}
+
+.main .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    font-family: "Martel Sans", sans-serif;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+}
