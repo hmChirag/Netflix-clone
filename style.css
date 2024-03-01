@@ -9,7 +9,7 @@ body{
 }
 .main{
     position: relative;
-    background-image: url(assests/images/bg1.jpg);
+    background-image: url(assests/images/background\ image.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -20,7 +20,7 @@ body{
     top: 0;
     height: 90vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.60;
     background-color: black;
 }
 nav{
@@ -49,20 +49,63 @@ nav button{
     justify-content: center;
     align-items: center;
     color: white;
-    height: 100%;
+    height: calc(100% - 59.56px);
     position: relative;
     z-index: 1;
     font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
 }
 .hero> :first-child{
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 .hero :nth-child(2){
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
+    padding: 13px 23px;
 }
 .hero :nth-child(3){
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
+}
+
+.separation{
+    height: 10px;
+    background-color: rgb(55, 51, 51);
+}
+
+.btn{
+    padding: 5px 9px;
+    font-weight: bold;
+    border-radius:4px;
+    background-color: rgba(132,132,132,-0.3);
+    color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 5px 9px;
+    font-weight: bold;
+    border-radius:4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius:4px;
+}
+
+.main input{
+    padding: 5px 9px;
+    font-weight: bold;
+    border-radius:4px;
+    height: 40px;
+    width: 410px;
+    background-color: rgba(23,23,23,0.2);
+    color: grey;
 }
