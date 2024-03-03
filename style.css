@@ -87,7 +87,7 @@ nav button {
 
 .separation {
     height: 10px;
-    background-color: rgb(66, 63, 63);
+    background-color: rgb(50, 48, 48);
 }
 
 .btn {
@@ -147,9 +147,9 @@ nav button {
 
 .secImg video {
     position: absolute;
-    top: 51px;
-    right: 0;
-    width: 555px;
+    top: 100px;
+    right: 0px;
+    width: 528px
 }
 
 section.first>div {
@@ -161,10 +161,46 @@ section.first>div {
 section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
+    width: 529px;
 }
-
 
 section.first>div :nth-child(2) {
     font-size: 24px;
 
+}
+
+.faq h2{
+text-align: center;
+padding: 34px;
+font-size: 42px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.faq .faqbox{
+    background-color: rgb(45, 43, 43);
+    color: white;
+    max-width: 50vw;
+    justify-content: space-between;
+    display: flex;
+    padding: 24px;
+    margin: 11px auto;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 1s ease-out;
+}   
+.faqbox:hover{
+    background-color: rgb(83, 82, 82);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
