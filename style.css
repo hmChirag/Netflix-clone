@@ -152,6 +152,23 @@ nav button {
     width: 528px
 }
 
+.secImg2 {
+    position: relative;
+}
+
+.secImg2 img {
+    width: 555px;
+    position: relative;
+    z-index: 1;
+}
+
+.secImg2 video {
+    position: absolute;
+    top: 62px;
+    right: 93px;
+    width: 334px
+}
+
 section.first>div {
     display: flex;
     flex-direction: column;
@@ -201,6 +218,16 @@ font-size: 42px;
 }
 
 footer{
+    color: white;
+}
+.footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
 }
